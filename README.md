@@ -1,2 +1,2 @@
 # Vibes
--[LiveDemo](https://vibezyt.netlify.app/)
+[LiveDemo](https://vibezyt.netlify.app/)
