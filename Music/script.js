@@ -6,7 +6,7 @@ document.getElementById('search-btn').addEventListener('click', function() {
 });
 
 function searchYouTube(query) {
-    fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=9&q=${encodeURIComponent(query)}&type=video&key=AIzaSyCP_DKAXXC9QpWXLCkgt0uLRUGFtJalOe4`)
+    fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=9&q=${encodeURIComponent(query)}&type=video&key=API_KEY`)
     .then(response => response.json())
     .then(data => {
         if (data.items.length > 0) {
